@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Orbitron&display=swap");
+
+*{
+    margin: 0%;
+    padding: 0%;
+    outline: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+   
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("./Imagem-Lousa-PNG-1024x702.png");
+}
+
+h1{
+    position: absolute;
+    top: 100px;
+    color: aliceblue;
+    font-size: 50px;
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: underline;
+}
+
+.botao:hover{
+    background-color: #b4b3b3;
+}
+
+.botao:active{
+    background-color: cadetblue;
+}
+
+input{
+    border: none;
+    margin: 2px;
+    border-radius: 3px;
+}
+
+input[type=text]{
+    width: calc(100% - 4px);
+    height: 50px;
+    margin-bottom: 3px;
+}
+
+input[type=button]{
+
+    width: 100px;
+    height: 50px;
+}
+
+div#calculadora div{
+    
+    display: flex;
+}
+
+div#quarta input:nth-child(1){
+    background-color: rgb(60, 60, 146);    
+    color: cornsilk;
+    border-bottom-left-radius: 15px;
+}
+
+
+div#quarta input:nth-child(4){
+    background-color: crimson;
+    border-bottom-right-radius: 15px;
+    color: cornsilk;
+}
+
